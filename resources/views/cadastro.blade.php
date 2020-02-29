@@ -10,29 +10,33 @@
 </head>
 <body id="body-cadastro">
     <div class="container my-3 px-4" id="div-master-cadastro">
+        
+        {{-- IMAGEM --}}
         <div class="text-center pt-5" id="div-img">
-            <img  class="" src="assets\img\1x\icon-4.png" width="250" alt="Logo">
+            <img  class="" src="{{asset('img/1x/icon-4.png')}}" width="150" alt="Logo">
         </div>
+
+        {{-- FORM --}}
         <form name="signup" method="post" action="cadastro_back.php">
             <div class="row mt-5">
-              <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12 pb-3">
+              <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
               <label for="exampleInputEmail1"></label>
                 <input type="text" class="form-control" placeholder="Nome" name="Nome">
               </div>
-              <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12 pb-3">
+              <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12">
               <label for="exampleInputEmail1"></label>
                 <input type="text" class="form-control" placeholder="Sobrenome" name="Sobrenome">
               </div>
             </div>
-            <div class="form-group">
+            <div class="form-group mb-0">
                 <label for="exampleInputEmail1"></label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" name="Email">
             </div>
-            <div class="form-group">
+            <div class="form-group mb-0">
                 <label for="exampleInputEmail1"></label>
                 <input type="text" class="form-control" id="exampleInputEmail1" placeholder="CPF/CNPJ" name="CPF_CNPJ">
             </div>
-            <div class="form-group">
+            <div class="form-group mb-0">
                 <label for="exampleInputPassword1"></label>
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha" name="Senha">
             </div>
@@ -40,11 +44,16 @@
                 <label for="exampleInputPassword1"></label>
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirmar senha" name="confirmarsenha">
             </div>
-                <input type="submit" class="btn btn-primary btn-md btn-block mt-4" value="Cadastrar">
+            
+            {{-- BTN CADASTRAR --}}
+            <input type="submit" class="btn btn-primary btn-md btn-block mt-4" value="Cadastrar">
         </form>
+        
+        {{-- VOLTAR AO MENU --}}
         <a href="http://localhost/BeyMind/index.php" class="btn btn-primary btn-md btn-block mt-3 mb-3" role="button" aria-disabled="true">Voltar ao Menu</a>
+        
+        {{-- LINKS --}}
         <div class="text-center my-3" id="div-span">
-            <!-- <span>Ao clicar em "Cadastrar" você estará aceitando os <a href="http://" id="div-span">Termos de serviço</a></span><br> -->
             <span>Ao clicar em "Cadastrar" você estará aceitando os <a href="" data-toggle="modal" data-target="#exampleModal" id="div-span">Termos de serviço</a></span><br>
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
