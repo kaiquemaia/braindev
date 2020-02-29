@@ -20,3 +20,7 @@ Route::get('/sobre', 'SobreController@index')->name('index');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/contato', function(){
+    return view('contato');
+});
