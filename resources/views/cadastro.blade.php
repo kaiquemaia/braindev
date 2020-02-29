@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('css/cadastro.css') }}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <title>Cadastro</title>
+    <title>BeyMind | Cadastro</title>
 </head>
 <body id="body-cadastro">
     <div class="container my-3 px-4" id="div-master-cadastro">
@@ -46,11 +46,11 @@
             </div>
             
             {{-- BTN CADASTRAR --}}
-            <input type="submit" class="btn btn-primary btn-md btn-block mt-4" value="Cadastrar">
+            <input type="submit" class="btn-block mt-4 btn-braindev" value="Cadastrar">
         </form>
         
         {{-- VOLTAR AO MENU --}}
-        <a href="http://localhost/BeyMind/index.php" class="btn btn-primary btn-md btn-block mt-3 mb-3" role="button" aria-disabled="true">Voltar ao Menu</a>
+        <a href="http://localhost:8000/" class="btn-block mt-2 btn-braindev text-center">Voltar ao Menu</a>
         
         {{-- LINKS --}}
         <div class="text-center my-3" id="div-span">
@@ -60,8 +60,6 @@
                     <div class="text-left modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">Termos de serviço</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
                         <div class="modal-body">
@@ -83,7 +81,7 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cumque ratione quasi fugit repellendus. Deleniti corporis, recusandae deserunt minima aliquam delectus quis ipsum inventore voluptatum suscipit ipsam fuga quaerat non!
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn-braindev" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
