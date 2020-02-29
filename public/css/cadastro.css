@@ -1,0 +1,19 @@
+#body-cadastro {
+    background-color: #461b79;
+}
+
+#div-master-cadastro {
+    border: 2px solid black;
+    background-color: white;
+    max-width: 500px;
+    min-width: 360px;
+    border-radius: 15px;
+}
+
+#div-titulo {
+    white-space: nowrap;
+}
+
+#div-span {
+    font-size: 13px; 
+}

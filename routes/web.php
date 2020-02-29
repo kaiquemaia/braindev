@@ -24,3 +24,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/contato', function(){
     return view('contato');
 });
+
+Route::get('/cadastro', function(){
+    return view('cadastro');
+});
