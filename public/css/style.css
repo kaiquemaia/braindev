@@ -1,0 +1,523 @@
+* {
+    font-family: 'source sans pro' sans-serif;
+}
+
+/* FOOTER */
+footer {
+    color: white;
+}
+
+#ul-footer {
+    list-style: none;
+    padding: 0;
+}
+
+#h5-footer {
+    white-space: nowrap;
+}
+
+#row1 {
+    background-color: #8a47dc;
+    position: absolute;
+}
+
+#row2 {
+    background-color: #6d32b2;
+}
+
+#a-footer {
+    color: inherit;
+}
+
+#a-footer:visited {
+     color: white;
+}
+/* --------------------------------------------------------------------------------------- */
+/* /LOGIN */
+#body-login2 {
+    background-color: black;
+}
+
+#div-master-login {
+    border: 2px solid black;
+    background-color: white;
+    max-width: 500px;
+    min-width: 360px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+#div-titulo-login {
+    white-space: nowrap;
+}
+
+#button {
+    background-color:rgb(85, 104, 249);
+    color: white;
+}
+
+#div-master-login {
+    animation-name: fade;
+    animation-duration: 500ms;
+    overflow: hidden;
+    /* font-family: Roboto, sans-serif; */
+}
+
+#div-form {
+    animation-name: move;
+    animation-duration: 500ms;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    } to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes move {
+    from {
+        opacity: 0;
+        transform: translateX(-35%);
+    } to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* --------------------------------------------------------------------------------------- */
+/* CADASTRO */
+#div-master-cadastro {
+    border: 2px solid black;
+    background-color: white;
+    max-width: 500px;
+    min-width: 360px;
+    border-radius: 15px;
+}
+
+#div-titulo {
+    white-space: nowrap;
+}
+
+#div-span {
+    font-size: 13px;
+}
+
+#button {
+    background-color:rgb(85, 104, 249);
+    color: white;
+}
+
+#div-master-cadastro {
+    animation-name: fade;
+    animation-duration: 500ms;
+    overflow: hidden;
+    /* font-family: Roboto, sans-serif; */
+}
+
+#div-form {
+    animation-name: move;
+    animation-duration: 500ms;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    } to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes move {
+    from {
+        opacity: 0;
+        transform: translateX(-35%);
+    } to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* /CADASTRO */
+/* --------------------------------------------------------------------------------------- */
+/* CONTATO */
+
+/* --------------------------------------------------------------------------------------- */
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(23, 23, 26);
+    height: 100%;
+}
+
+
+p, li, ul, a {
+    font-size: 18px;
+    /* color: rgb(63, 63, 65); */
+
+}
+
+.banner {
+    background-color: #461B79;
+    color: #fff;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+
+.info-checkout {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: -90px;
+}
+
+.promo-code {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: -90px;
+    margin-left: 15px;
+
+}
+
+.product {
+    background-color: #471b7a!important;
+}
+
+.text {
+    color: #fff!important;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.card {
+    border: 2px;
+    border-color: rgb(105, 120, 255);
+    border-radius: 14px;
+    background-color: rgb(31, 31, 36);
+
+
+}
+
+.card :hover {
+    border: 0px;
+    border-radius: 14px;
+    transition: transform .4s;
+    background-color: rgb(23, 23, 26);
+    border: 2px;
+    border-color: rgb(105, 120, 255);
+
+    -ms-transform: scale(1.04); /* IE 9 */
+    -webkit-transform: scale(1.04); /* Safari 3-8 */
+    transform: scale(1.04);
+
+}
+
+
+.servicos :hover{
+    border: 0px;
+    border-radius: 14px;
+    transition: transform .4s;
+
+    -ms-transform: scale(1.04); /* IE 9 */
+    -webkit-transform: scale(1.04); /* Safari 3-8 */
+    transform: scale(1.04);
+}
+
+
+/* --------------------------------- Text Head - p ---------------------------------  */
+.h2-white {
+    font-family: Roboto, "Open Sans", sans-serif;
+    font-size: 54px;
+    line-height: 64px;
+    font-weight: bold;
+    color: #f7f7f7;
+}
+
+.h2-black {
+    font-family: Roboto, "Open Sans", sans-serif;
+    font-size: 54px;
+    line-height: 64px;
+    font-weight: 900;
+    color: #1d1d1d;
+}
+
+
+.h2-black-carrousel {
+    font-family: Roboto, "Open Sans", sans-serif;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 900;
+    color: #1d1d1d;
+}
+
+h3 {
+    font-family: Roboto, "Open Sans", sans-serif;
+    font-size: 22px;
+    line-height: 64px;
+    font-weight: bold;
+    color: #f7f7f7;
+}
+
+.title {
+    color: rgb(105, 120, 255) ;
+}
+.nav-light {
+    color: #f5f5f5;
+    position: relative;
+    text-decoration: none;
+    transition: all 150ms linear 0s;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* --------------------------------- End Text Head - p ---------------------------------  */
+
+
+/* --------------------------------  Style padrão de botões em todo site -------------------------------- */
+
+.btn-braindev {
+
+    border: 0px;
+    padding: 15px 40px 15px 40px;
+    background-color: rgb(105, 120, 255);
+    color: #fff;
+}
+
+.btn-braindev :hover{
+    color: #fff;
+}
+
+.btn-braindev-white {
+
+    border: 0px;
+    padding: 15px 40px 15px 40px;
+    background-color: rgb(237, 238, 243);
+    color: rgb(105, 120, 255);
+}
+
+.btn-braindev-white :hover{
+    color: #333;
+}
+
+
+/* -------------------------------- Final dos styles botões -------------------------------- */
+
+.card-text {
+    color: rgb(170, 170, 170);
+    text-align: justify;
+}
+
+.modal-content{
+    background-color: rgb(36,36,41);
+}
+
+.modal-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin-top: 80px;
+    list-style: none;
+    grid-column-gap: 46px;
+    grid-row-gap: 56px;
+    color: #fff;
+}
+
+.planos {
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+
+
+
+/* ------------------------------- Icons colors and Size ------------------------------- */
+
+.fa-green {
+    color: rgb(4, 211, 97)!important;
+    font-size: 25px;
+}
+
+.fa-white {
+    color: rgb(255, 255, 255)!important;
+    font-size: 25px;
+}
+
+.fa-black {
+    color: rgb(0, 0, 0)!important;
+    font-size: 25px;
+}
+
+.fa-purple {
+    color: rgb(105, 120, 255)!important;
+    font-size: 25px;
+}
+
+.fa-red {
+    color: rgb(221, 31, 63)!important;
+    font-size: 25px;
+}
+
+.fa-grey {
+    color: rgb(111, 115, 124)!important;
+    font-size: 25px;
+}
+
+.fa-grey :hover {
+    color: rgb(255, 255, 255)!important;
+    font-size: 25px;
+}
+
+/* ------------------------------- End Icons colors --------------------------- */
+
+li {
+    padding-bottom: 6px;
+}
+
+.close {
+    color: #f7f7f7;
+}
+
+.close :hover{
+    color: #fff;
+}
+
+.navbar {
+    padding-left: 55px;
+    z-index: 1;
+}
+
+.navbar-2 {
+    padding-left: 55px;
+    z-index: 1;
+    background-color: rgb(27, 27, 27);
+    position: sticky;
+    width: 100%;
+}
+
+.focus {
+    color: rgb(4, 211, 97)!important;
+}
+
+.carousel-inner {
+    margin-top: -180px!important;
+    padding: 0;
+}
+
+.carousel {
+    background-color: #fff!important;
+    height: 1100px;
+    display: grid;
+    align-items: center;
+}
+
+/* Text navbar */
+
+.t-navbar a {
+    font-size: 15px;
+}
+
+
+
+
+  /* Background colors */
+
+  .braindev-bg-purple {
+      background-color: rgb(105, 120, 255)!important;;
+  }
+
+  /* Header section home  ///////HOME///////  */
+
+  .header-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+      align-items: center;
+  }
+
+  .header-slider {
+    height: 460px;
+    align-items: center;
+  }
+
+  /* Section servicos home */
+  .servicos-section-home {
+      /* background: rgb(205, 209, 252); */
+      height: 760px;
+    align-items: center;
+  }
+  .servicos-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    align-items: center;
+  }
+  .card-servicos {
+    border-radius: 14px;
+    background: rgb(31, 31, 36);
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  .nossos-servicos {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px;
+  }
+
+
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .check {
+      width: 100%;
+    }
+
+    .header-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        align-items: center;
+        max-width: 90%;
+    }
+
+    .header-slider {
+      height: 770px;
+      align-items: center;
+    }
+    /* Section servicos home */
+    .servicos-section-home {
+        /* background: rgb(205, 209, 252); */
+        height: 1760px;
+        align-items: center;
+    }
+    .servicos-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        align-items: center;
+        max-width: 90%;
+    }
+    .card-servicos {
+        border-radius: 14px;
+        background: rgb(31, 31, 36);
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .nossos-servicos {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+  }
+
+
