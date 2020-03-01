@@ -28,3 +28,7 @@ Route::get('/contato', function(){
 Route::get('/cadastro', function(){
     return view('cadastro');
 });
+
+Route::get('/login', function(){
+    return view('login');
+});
