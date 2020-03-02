@@ -5,18 +5,18 @@
 <div class="row header-slider bg-light">
     <div class="container header-section">
         <div class="">
-            <h2 class="h2-black">Nós alcançamos <b class="title">Resultados</b></h2>
+            <h2 class="h2-black">Nós alcançamos <b class="title">Resultado</b></h2>
             <p class="">Aqui fazemos acontecer, se você tem uma ideia é só trazer que transformaremos ela em realidade</p>
             <button type="button" class="btn btn-braindev" data-toggle="modal" data-target=".produto1">Conhecer</button>
         </div>
         <div class=" text-center">
-            <img src="img/melhores-tecnologias.svg" alt="">
+            <img src="img/melhores-tecnologias.svg" alt="" class="img-fluid">
         </div>
     </div>
 </div>
 
 {{-- Servicos descritos --}}
-<div class="row servicos-section-home">
+<div class="row servicos-section-home" id="servicos">
     <div class="container servicos-section">
         <div class="">
             <h2 class="h2-white">Nossos serviços</h2>
@@ -60,7 +60,7 @@
             <button type="button" class="btn btn-braindev" data-toggle="modal" data-target=".produto1">Conhecer</button>
         </div>
         <div class=" text-center">
-            <img src="img/melhores-tecnologias.svg" alt="">
+            <img src="img/melhores-tecnologias.svg" alt="" class="img-fluid">
         </div>
     </div>
 </div>
@@ -68,7 +68,8 @@
 
 <div class="container planos py-5">
 
-<section class="row" id="sobre">
+    {{-- Section planos --}}
+<section class="row" id="planos">
     <article class="col-12 my-5 d-flex flex-column justify-content-center align-items-center text-center">
         <h2 class="h2-white">Escolha seu <b class="title">plano</b></h2>
     </article>
@@ -78,7 +79,7 @@
 
     <div class="card shadow-lg servicos">
         <div class="card-body text-center p-4">
-            <img src="img/step-3.svg" alt="" width="150px" class="pb-5">
+            <img src="img/step-3.svg" alt=""  width="150px" class="pb-5 img-fluid">
             <h3><b>Starter</b></h3>
             <p class="card-text p-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus error pariatur mollitia facilis. Excepturi obcaecati
@@ -88,7 +89,7 @@
     </div>
     <div class="card servicos shadow-lg">
         <div class="card-body text-center p-4">
-            <img src="img/step-7.svg" alt="" width="150px" class="pb-5">
+            <img src="img/step-7.svg" alt=""  width="150px" class="pb-5 img-fluid">
             <h3><b>Plano 01</b></h3>
             <p class="card-text p-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus error pariatur mollitia facilis. Excepturi obcaecati
@@ -98,7 +99,7 @@
     </div>
     <div class="card shadow-sm servicos">
         <div class="card-body text-center p-4">
-            <img src="img/step-8.svg" alt="" width="150px" class="pb-5">
+            <img src="img/step-8.svg" alt=""  width="150px" class="pb-5 img-fluid">
             <h3><b>Quero personalizar!</b></h3>
             <p class="card-text p-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus error pariatur mollitia facilis. Excepturi obcaecati

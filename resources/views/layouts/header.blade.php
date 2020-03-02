@@ -34,14 +34,17 @@
               <a class="nav-link nav-light" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-light" href="#">Features</a>
+              <a class="nav-link nav-light" href="#servicos">Serviços</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-light" href="#">Pricing</a>
+              <a class="nav-link nav-light" href="#planos">Planos</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link nav-light" href="">Contato</a>
+              </li>
           </ul>
           <span class="navbar-button">
-            <button class="btn btn-braindev-white px-4">Login</button>
+            <button class="btn btn-login-header px-4">Login</button>
           </span>
         </div>
         </div>
