@@ -27,6 +27,9 @@ Route::get('/contato', function(){
 Route::get('/produtos', function(){
     return view('produtos');
 });
+Route::get('/checkout', function(){
+    return view('checkout');
+});
 
 Route::get('/cadastro', function(){
     return view('cadastro');

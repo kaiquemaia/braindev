@@ -501,6 +501,24 @@ li {
     grid-gap: 10px;
 }
 
+/* FORMULÁRIO */
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.6em + 0.75rem + 2px);
+    padding: 25px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #474749;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 6px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    background: #232328;
+}
+
 
 
   @media only screen and (max-width: 768px) {

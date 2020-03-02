@@ -31,16 +31,16 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link nav-light" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link nav-light" href="{{ url('/')}}">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-light" href="#servicos">Serviços</a>
+              <a class="nav-link nav-light" href="{{ url('/#servicos')}}">Serviços</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-light" href="#planos">Planos</a>
+              <a class="nav-link nav-light" href="{{ url('/#planos')}}">Planos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link nav-light" href="">Contato</a>
+                <a class="nav-link nav-light" href="{{ url('contato')}}">Contato</a>
               </li>
           </ul>
           <span class="navbar-button">
