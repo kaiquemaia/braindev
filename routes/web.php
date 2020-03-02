@@ -32,3 +32,7 @@ Route::get('/cadastro', function(){
 Route::get('/login', function(){
     return view('login');
 });
+
+Route::get('/checkout', function(){
+    return view('checkout');
+});
