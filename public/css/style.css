@@ -310,6 +310,12 @@ h3 {
 .btn-braindev-white :hover{
     color: #333;
 }
+.btn-login-header {
+    border: 0px;
+    padding: 8px 40px 8px 40px;
+    background-color: rgb(237, 238, 243);
+    color: rgb(105, 120, 255);
+}
 
 
 /* -------------------------------- Final dos styles botões -------------------------------- */
@@ -432,8 +438,17 @@ li {
   /* Background colors */
 
   .braindev-bg-purple {
-      background-color: rgb(105, 120, 255)!important;;
+      background-color: rgb(105, 120, 255)!important;
   }
+  .braindev-bg-dark {
+    background-color: rgb(23, 23, 26)!important;
+}
+.braindev-bg-white {
+    background-color: #f2f2f2!important;
+}
+.braindev-bg-card-dark {
+    background: rgb(31, 31, 36);
+}
 
   /* Header section home  ///////HOME///////  */
 
@@ -472,6 +487,19 @@ li {
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 10px;
   }
+
+  /* CSS GRID */
+
+  .bd-grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+  }
+  .bd-grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
 
 
 
@@ -517,6 +545,20 @@ li {
         grid-template-columns: 1fr;
         grid-gap: 10px;
     }
+
+    /* CSS GRID */
+
+    .bd-grid-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+    .bd-grid-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
 
   }
 
