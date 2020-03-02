@@ -54,7 +54,7 @@
 
             <div class="checkout braindev-bg-card-dark p-5 container mt-5 ">
 
-                <h3>Planos escolhidos</h3>
+                <h3>Planos escolhidos</h3> 
 
                     <div class="logo-checkout bd-grid-2">
                         <img src="img/step-3.svg" alt="">
