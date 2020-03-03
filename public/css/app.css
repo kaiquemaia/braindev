@@ -656,6 +656,10 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
+<<<<<<< HEAD
+=======
+
+>>>>>>> e1994ac64fa4439e2c27d14fbcad2425a72f43e9
 }
 
 .no-gutters {

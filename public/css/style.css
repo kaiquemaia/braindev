@@ -217,9 +217,9 @@ h1 {
     border: 2px;
     border-color: rgb(105, 120, 255);
 
-    -ms-transform: scale(1.04); /* IE 9 */
-    -webkit-transform: scale(1.04); /* Safari 3-8 */
-    transform: scale(1.04);
+    /* -ms-transform: scale(1.04); IE 9 */
+    /* -webkit-transform: scale(1.04); Safari 3-8 */
+    /* transform: scale(1.04); */
 
 }
 
@@ -517,6 +517,12 @@ li {
     border-radius: 6px;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     background: #232328;
+}
+
+.braindev-login {
+    height: 80vh;
+    display: grid;
+    align-items: center!important;
 }
 
 

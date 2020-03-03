@@ -44,7 +44,7 @@
               </li>
           </ul>
           <span class="navbar-button">
-            <button class="btn btn-login-header px-4">Login</button>
+            <button class="btn btn-login-header px-4" onclick="location.href='{{ route('login') }}'" >Login</button>
           </span>
         </div>
         </div>
