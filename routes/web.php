@@ -36,4 +36,13 @@ Route::get('/checkout', function(){
 Route::get('/cadastro', function(){
     return view('cadastro');
 });
+Route::get('/recov', function(){
+    return view('recov');
+});
 
+
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
