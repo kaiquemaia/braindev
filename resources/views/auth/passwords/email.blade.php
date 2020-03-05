@@ -1,12 +1,18 @@
-@extends('layouts.app')
+@extends('layouts.head')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Reset Password') }}</div>
 
+    <div class="row justify-content-center">
+        <div class="container login-grid">
+
+            <div class="imagem-login ">
+                <h3 class="h2-white"> Trazendo resultado <br> para sua <b class="title"> Empresa</b></h3>
+                <img src="" alt="">
+            </div>
+
+            <div class="form-login ">
+
+                <a class="navbar-brand text-center logo-login py-3"><img src="img/logo-rocketseat.svg" alt="" width="45px" height="auto"></a>
                 <div class="card-body">
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
@@ -18,10 +24,10 @@
                         @csrf
 
                         <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
+                            {{-- <label for="email" class="col-md-12 col-form-label text-md-right text">{{ __('E-Mail Address') }}</label> --}}
 
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                            <div class="col-md-12">
+                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" placeholder="E-mail" autofocus>
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
@@ -32,15 +38,16 @@
                         </div>
 
                         <div class="form-group row mb-0">
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Send Password Reset Link') }}
+                            <div class="col-md-12 offset-md-12">
+                                <button type="submit" class="btn btn-braindev btn-lg btn-block">
+                                    {{ __('Recuperar senha') }}
                                 </button>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
+
         </div>
     </div>
 </div>
