@@ -53,7 +53,7 @@
                             </div>
   
                           <div class="col-12 form-group" id="form-box">
-                              <button type="submit" class="btn btn-braindev">Enviar</button>
+                            <a href="{{"/checkout"}}"><button type="submit" class="btn btn-braindev">Enviar</button></a>
                           </div>
                           
                         </div>

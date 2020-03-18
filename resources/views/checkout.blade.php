@@ -8,45 +8,77 @@
 
             <div class="checkout braindev-bg-card-dark p-5 container mt-5 ">
 
-                <form class="container ">
+                <form class="container formCheckout" action="{{ route('register') }}" method="POST">
+                  @csrf
+
                     <div class="form-row">
                       <div class="form-group col-md-6">
-                        <input type="text" class="form-control" id="inputEmail4" placeholder="Digite seu Nome *" required>
+                        <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus placeholder="Digite seu Nome *" required>
+
+                          @error('name')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                          @enderror
                       </div>
+
                       <div class="form-group col-md-6">
-                        <input type="text" class="form-control" id="inputEmail4" placeholder="Nome da empresa *" required>
+                        <input type="text" class="form-control" id="empresa" name="inputEmpresa" placeholder="Nome da empresa *" required>
                       </div>
                       <div class="form-group col-md-12">
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Digite seu Email *" required>
+                        <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" placeholder="Digite seu Email *" required>
+
+                          @error('email')
+                              <span class="invalid-feedback" role="alert">
+                                  <strong>{{ $message }}</strong>
+                              </span>
+                          @enderror
+
                       </div>
                       <div class="form-group col-md-6">
-                        <input type="tel" class="form-control" id="inputPassword4" placeholder="Digite seu Telefone *" required>
+                        <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="Digite seu Telefone *" required>
                       </div>
                       <div class="form-group col-md-6">
-                        <input type="text" class="form-control" id="inputAddress" placeholder="Seu endereço *" required>
+                        <input type="text" class="form-control" id="endereco" name="telefone" placeholder="Seu endereço *" required>
                       </div>
 
                       <div class="form-group col-md-4">
-                        <input type="text" class="form-control" id="inputCity" placeholder="Cidade">
+                        <input type="text" class="form-control" id="cidade" name="cidade" placeholder="Cidade">
                       </div>
+
                       <div class="form-group col-md-4">
-                        <input type="text" class="form-control" id="inputAddress2" placeholder="Número *" required>
+                        <input type="text" class="form-control" id="numero" name="numero" placeholder="Número *" required>
                       </div>
+
                       <div class="form-group col-md-4">
-                        <input type="text" class="form-control" id="inputZip" placeholder="CEP ">
+                        <input type="text" class="form-control" id="cep" name="cep" placeholder="CEP ">
+                      </div>
+
+                      <div class="form-group col-md-6">
+                        <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password" placeholder="Crie uma senha ">
+
+                          @error('password')
+                              <span class="invalid-feedback" role="alert">
+                                  <strong>{{ $message }}</strong>
+                              </span>
+                          @enderror
+
+                      </div>
+                      <div class="form-group col-md-6">
+                        <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password" placeholder="Confirme sua senha ">
                       </div>
 
                     </div>
 
                     <div class="form-group">
                         <div class="form-check">
-                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                          <input class="form-check-input" type="checkbox" id="Check">
                           <label class="form-check-label text-light" for="gridCheck">
                             Aceito os termos
                           </label>
                         </div>
                       </div>
-                      <button type="submit" class="btn btn-braindev">Comprar agora!</button>
+                      <button type="submit" class="btn btn-braindev"> {{ __('Comprar agora!') }} </button>
 
                 </form>
 
@@ -71,4 +103,5 @@
 
         </div>
     </main>
+    <script src="js/checkout.js"></script>
 @endsection

@@ -52,8 +52,18 @@ class RegisterController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
+            // 'empresa' => ['required', 'string', 'confirmed'],
+            // 'telefone' => ['required', 'integer'],
+            // 'cpf' => ['required', 'string', 'max:13'],
+            // 'cnpj' => ['required', 'string', 'max: 15'],
+            // 'cidade' => ['required', 'string'],
+            // 'numero' => ['required', 'string'],
+            // 'cep' => ['required', 'integer'],
+
+
         ]);
     }
+
 
     /**
      * Create a new user instance after a valid registration.
@@ -67,6 +77,13 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+            // 'empresa' => $data['empresa'],
+            // 'telefone' => $data['telefone'],
+            // 'cpf' => $data['cpf'],
+            // 'cnpj' => $data['cnpj'],
+            // 'cidade' =>$data['cidade'],
+            // 'numero' =>$data['numero'],
+            // 'cep' => $data['cep'],
         ]);
     }
 }
