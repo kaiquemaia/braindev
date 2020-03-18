@@ -12,52 +12,53 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
 
-                    <h3><b>Plano Starter</b></h3>
-                    <p class="card-text px-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus error pariatur mollitia facilis. Excepturi obcaecati
+                    <h3><b>Plano Custom</b></h3>
+                    <p class="card-text px-5 text-center">
+                        Customize seu plano de acordo com a necessidade da sua empresa
                     </p>
                     </div>
 
-                    <ul class="stepper linear">
-  <li class="step active">
-    <div data-step-label="Type something" class="step-title waves-effect waves-dark">Step 1</div>
-    <div class="step-new-content">
-      <div class="row">
-        <div class="md-form col-12 ml-auto">
-          <input id="email-linear" type="email" class="form-control validate" required>
-          <label for="email-linear">Your e-mail</label>
-        </div>
-      </div>
-      <div class="step-actions">
-        <button class="waves-effect waves-dark btn btn-sm btn-primary next-step">CONTINUE</button>
-      </div>
-    </div>
-  </li>
-  <li class="step">
-    <div class="step-title waves-effect waves-dark">Step 2</div>
-    <div class="step-new-content">
-      <div class="row">
-        <div class="md-form col-12 ml-auto">
-          <input id="password-linear" type="password" class="form-control validate" required>
-          <label for="password-linear">Your password</label>
-        </div>
-      </div>
-      <div class="step-actions">
-        <button class="waves-effect waves-dark btn btn-sm btn-primary next-step">CONTINUE</button>
-        <button class="waves-effect waves-dark btn btn-sm btn-secondary previous-step">BACK</button>
-      </div>
-    </div>
-  </li>
-  <li class="step">
-    <div class="step-title waves-effect waves-dark">Step 3</div>
-    <div class="step-new-content">
-      Finish!
-      <div class="step-actions">
-        <button class="waves-effect waves-dark btn btn-sm btn-primary m-0 mt-4" type="button">SUBMIT</button>
-      </div>
-    </div>
-  </li>
-</ul>
+                    <div class="container">
+                      <form>
+                        <h3 class="title text-center"><b>Escreva para nós</b></h3>
+                        <div class="form-row mt-3">
+                            <div class="col-lg-4 col-md-12 mb-4">
+                                <input type="text" class="form-control" placeholder="Nome">
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-4">
+                              <input type="text" class="form-control" placeholder="Empresa">
+                          </div>
+                         
+                        
+                            <div class="col-6 form-group" id="form-box">
+                              <select class="form-control" id="">
+                                <option selected disabled required>Qual Serviço</option>
+                                <option>Marketing Online</option>
+                                <option>Marketing Offline</option>
+                                <option>Mídias</option>
+                                <option>Desenvolvimento</option>
+                              </select>
+                            </div>
+                            <div class="col-6 form-group" id="form-box">
+                              <select class="form-control" id="">
+                                <option selected disabled required>Por onde nos conheceu?</option>
+                                <option>Google</option>
+                                <option> Redes Sociais</option>
+                                <option> Panfletos</option>
+                                <option> Youtube</option>
+                              </select>
+                            </div>
+  
+                          <div class="col-12 form-group" id="form-box">
+                              <button type="submit" class="btn btn-braindev">Enviar</button>
+                          </div>
+                          
+                        </div>
+                    </form>
+                    </div>
 
 
 

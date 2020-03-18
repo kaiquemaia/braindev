@@ -90,7 +90,7 @@
     <div class="card servicos shadow-lg">
         <div class="card-body text-center p-4">
             <img src="img/step-7.svg" alt=""  width="150px" class="pb-5 img-fluid">
-            <h3><b>Plano 01</b></h3>
+            <h3><b>Pro</b></h3>
             <p class="card-text p-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus error pariatur mollitia facilis. Excepturi obcaecati
             </p>
@@ -100,7 +100,7 @@
     <div class="card shadow-sm servicos">
         <div class="card-body text-center p-4">
             <img src="img/step-8.svg" alt=""  width="150px" class="pb-5 img-fluid">
-            <h3><b>Quero personalizar!</b></h3>
+            <h3><b>Custom</b></h3>
             <p class="card-text p-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus error pariatur mollitia facilis. Excepturi obcaecati
             </p>

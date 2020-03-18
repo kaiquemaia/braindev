@@ -42,6 +42,13 @@
                         <div class="col-12 form-group" id="form-box">
                             <textarea type="text" class="form-control" placeholder="Conteúdo" rows="6"></textarea>
                         </div>
+
+                        <div class="col-12 form-group" id="form-box">
+                            <button type="submit" class="btn btn-braindev">Conhecer</button>
+                        </div>
+
+                        
+
                     </div>
                 </form>
                 </div>

@@ -32,7 +32,7 @@
                         <li> <i class="fa-green fa fa-check-circle"></i> <b>Google Meu Negócio</b> <br> <p class="card-text"> Google Adwords, Facebook Ads, Remarketing no Google, Remarketing no Facebook, Native Ads, Outbrain, Taboola </p></li>
                     </ul>
 
-                    <button type="button" class="btn btn-braindev btn-lg btn-block" data-toggle="modal" data-target=".bd-example-modal-lg">Assinar agora!</button>
+                    <button type="button" class="btn btn-braindev btn-lg btn-block" >Assinar agora!</button>
 
                 </div>
             </div>
