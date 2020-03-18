@@ -124,8 +124,61 @@
 
 <section class="depoimento bg-light" id="id_depoimento">
     <div class="depoimento-header container">
-        <h3 class="text-dark py-3">Depoimentos </h3>
+        <section class="row pt-5" id="planos">
+            <article class="col-12 my-5 d-flex flex-column justify-content-center align-items-center text-center">
+                <h2 class="h2-black">Depoimen<b class="title">tos</b></h2>
+            </article>
+        </section>
+        <div class="container" >
+            <div class="container p-3 row">
 
+                <div class="depoimentos text-center">
+                    <div class="card-depoimentos">
+                        <div class="row">
+                            <img class="col-6" src="" alt="">
+                            <h3 class="title col-6">@nome</h3>
+                        </div>
+                        <p class="card-text-depoimentos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores velit repellendus ad exercitationem porro, quia, perferendis tempore corporis deserunt, nisi labore placeat. Necessitatibus rem delectus dicta eius eum voluptatibus est.</p>
+                    </div>
+                    <div class="card-depoimentos">
+                        <div class="row">
+                            <img class="col-6" src="" alt="">
+                            <h3 class="title col-6">@nome</h3>
+                        </div>
+                        <p class="card-text-depoimentos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non velit eveniet doloremque dicta reiciendis, laudantium quibusdam quas modi sint doloribus, ab beatae dolorum ad magnam adipisci alias nesciunt? Exercitationem, adipisci.</p>
+                    </div>
+                    <div class="card-depoimentos">
+                        <div class="row">
+                            <img class="col-6" src="" alt="">
+                            <h3 class="title col-6">@nome</h3>
+                        </div>
+                        <p class="card-text-depoimentos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, dignissimos repellat! Debitis non at ipsa distinctio eaque, culpa natus iure doloribus dolore architecto modi est, cupiditate quo fugiat error quam.</p>
+                    </div>
+                    <div class="card-depoimentos">
+                        <div class="row">
+                            <img class="col-6" src="" alt="">
+                            <h3 class="title col-6">@nome</h3>
+                        </div>
+                        <p class="card-text-depoimentos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nobis magnam veritatis, dicta iste aut vel deserunt quidem id. Voluptate quibusdam corrupti blanditiis inventore hic cupiditate quidem rerum ipsam autem?</p>
+                    </div>
+                    <div class="card-depoimentos">
+                        <div class="row">
+                            <img class="col-6" src="" alt="">
+                            <h3 class="title col-6">@nome</h3>
+                        </div>
+                        <p class="card-text-depoimentos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea dignissimos cumque quia nihil quas! Nam, magnam? Dignissimos laborum facilis magni in at ab, illum, soluta eos incidunt esse quam quas!</p>
+                    </div>
+                    <div class="card-depoimentos">
+                        <div class="row">
+                            <img class="col-6" src="" alt="">
+                            <h3 class="title col-6">@nome</h3>
+                        </div>
+                        <p class="card-text-depoimentos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea dignissimos cumque quia nihil quas! Nam, magnam? Dignissimos laborum facilis magni in at ab, illum, soluta eos incidunt esse quam quas!</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 </section>
 @endsection
