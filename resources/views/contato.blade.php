@@ -30,17 +30,17 @@
 
                 {{-- Foram retiradas algumas class (col-lg-6 col-md-12 col-xs-12) --}}
                 <div class="form">
-                <form>
+                <form class="" action="{{'/obrigado'}}" method="POST">
                     <h3 class="title"><b>Escreva para nós</b></h3>
                     <div class="form-row mt-3">
                         <div class="col-lg-6 col-md-12 mb-4">
-                            <input type="text" class="form-control" placeholder="Nome">
+                            <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome">
                         </div>
                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mb-4">
-                            <input type="email" class="form-control" placeholder="Email">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
                         </div>
                         <div class="col-12 form-group" id="form-box">
-                            <textarea type="text" class="form-control" placeholder="Conteúdo" rows="6"></textarea>
+                            <textarea type="text" class="form-control" name="mensagem" id="mensagem" placeholder="Sua Mensagem" rows="6"></textarea>
                         </div>
 
                         <div class="col-12 form-group" id="form-box">
@@ -53,11 +53,16 @@
                 </form>
                 </div>
             </div>
-
+            
             {{-- MAPA --}}
+<<<<<<< HEAD
             <div class="row my-5">
+=======
+            <div class="row my-5"></div>
+>>>>>>> 95f7b23dcb86dadc65ed2e7ca5bf78b67c2ee192
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14629.55518769143!2d-46.6889560302246!3d-23.55447584999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m3!3e0!4m0!4m0!5e0!3m2!1spt-BR!2sbr!4v1575298739872!5m2!1spt-BR!2sbr" width="100%" height="350px" frameborder="0" style="border:1;" allowfullscreen=""></iframe>
             </div>
         </div>
     </main>
+    
     @endsection

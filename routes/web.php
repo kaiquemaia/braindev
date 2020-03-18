@@ -39,6 +39,9 @@ Route::get('/cadastro', function(){
 Route::get('/recov', function(){
     return view('recov');
 });
+Route::post('/obrigado', function(){
+    return view('obrigado');
+});
 
 
 
