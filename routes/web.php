@@ -43,6 +43,8 @@ Route::post('/obrigado', function(){
     return view('obrigado');
 });
 
+Route::post('/enviar', 'ContatoController@enviaContato');
+
 
 
 

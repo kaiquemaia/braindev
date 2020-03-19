@@ -12,7 +12,10 @@
 
             <div class="form-login ">
 
-                <a class="navbar-brand text-center logo-login py-3"><img src="img/logo-rocketseat.svg" alt="" width="45px" height="auto"></a>
+                {{-- <a class="navbar-brand text-center logo-login py-3"><img src="img/logo-rocketseat.svg" alt="" width="45px" height="auto"></a> --}}
+                <div class="text-center">
+                    <h3>Brain <b class="title">dev</b></h3>
+                </div>
                 <div class="card-body">
 
                     

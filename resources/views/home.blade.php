@@ -1,23 +1,23 @@
-@extends('layouts.app')
+@extends('layouts.master')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
+<main class="braindev-vh-100">
+    <div class="container text-center mt-5">
+        <h1>Dashboard</h1>
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
-                </div>
+        <div class="painel-grid-dashboard container mt-4">
+            <div class="sidebar">
+                <div class="text card-dashboard"> Minha conta <i class="fa fa-user"></i> </div>
+                <div class="text card-dashboard">  Pedidos <i class="fa fa-tag"></i></div>
+                <div class="text card-dashboard"> Planos <i class="fa fa-bars"></i></div>
+                <div class="text card-dashboard"> Serviços <i class="fa fa-bars"></i></div>
+                
             </div>
+
         </div>
+
+
+        
     </div>
-</div>
+</main>
 @endsection
