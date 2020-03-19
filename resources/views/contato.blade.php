@@ -3,7 +3,7 @@
 @section('content')
 
     <main class="row">
-        <div class="container">
+        <div class="container mb-5">
 
             {{-- TITULO --}}
             <div class="text-center py-5">
