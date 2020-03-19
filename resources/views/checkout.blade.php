@@ -1,4 +1,4 @@
-@extends('layouts.header')
+@extends('layouts.master')
 
 @section('content')
 
@@ -29,6 +29,26 @@
                         <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" placeholder="Digite seu Email *" required>
 
                           @error('email')
+                              <span class="invalid-feedback" role="alert">
+                                  <strong>{{ $message }}</strong>
+                              </span>
+                          @enderror
+
+                      </div>
+                      <div class="form-group col-md-6">
+                        <input id="cpf" type="text" class="form-control @error('cpf') is-invalid @enderror" name="cpf" value="{{ old('cpf') }}" required autocomplete="cpf" placeholder="Digite seu CPF *" required>
+
+                          @error('cpf')
+                              <span class="invalid-feedback" role="alert">
+                                  <strong>{{ $message }}</strong>
+                              </span>
+                          @enderror
+
+                      </div>
+                      <div class="form-group col-md-6">
+                        <input id="cnpj" type="cnpj" class="form-control @error('cnpj') is-invalid @enderror" name="cnpj" value="{{ old('cnpj') }}" required autocomplete="cnpj" placeholder="Digite seu CNPJ *" required>
+
+                          @error('cnpj')
                               <span class="invalid-feedback" role="alert">
                                   <strong>{{ $message }}</strong>
                               </span>

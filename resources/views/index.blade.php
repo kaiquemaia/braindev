@@ -1,11 +1,11 @@
-@extends('layouts.header')
+@extends('layouts.master')
 
 @section('content')
 
 <div class="row header-slider bg-light">
     <div class="container header-section">
         <div class="">
-            <h2 class="h2-black">Nós alcançamos <b class="title">Resultado</b></h2>
+            <h2 class="h2-black">Nós alcançamos <b class="title">Resultados</b></h2>
             <p class="">Aqui fazemos acontecer, se você tem uma ideia é só trazer que transformaremos ela em realidade</p>
             <button type="button" class="btn btn-braindev" data-toggle="modal" data-target=".produto1">Conhecer</button>
         </div>
@@ -55,9 +55,8 @@
 <div class="row header-slider bg-light">
     <div class="container header-section">
         <div class="">
-            <h2 class="h2-black">Nós alcançamos <b class="title">Resultados</b></h2>
-            <p class="">Aqui fazemos acontecer, se você tem uma ideia é só trazer que transformaremos ela em realidade</p>
-            <button type="button" class="btn btn-braindev" data-toggle="modal" data-target=".produto1">Conhecer</button>
+            <h2 class="h2-black">O melhor para sua <b class="title">Empresa</b></h2>
+            <p class="">Escolha o que melhor irá ajudar sua empresa a alavancar</p>
         </div>
         <div class=" text-center">
             <img src="img/melhores-tecnologias.svg" alt="" class="img-fluid">
@@ -122,11 +121,6 @@
 
 </div>
 
-<section class="depoimento bg-light" id="id_depoimento">
-    <div class="depoimento-header container">
-        <h3 class="text-dark py-3">Depoimentos </h3>
 
-    </div>
-</section>
 @endsection
 

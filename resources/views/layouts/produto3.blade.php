@@ -20,7 +20,7 @@
 
                     <div class="container">
                       <form>
-                        <h3 class="title text-center"><b>Escreva para nós</b></h3>
+                        {{-- <h3 class="title text-center"><b>Escreva para nós</b></h3> --}}
                         <div class="form-row mt-3">
                             <div class="col-lg-4 col-md-12 mb-4">
                                 <input type="text" class="form-control" placeholder="Nome">
