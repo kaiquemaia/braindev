@@ -9,6 +9,7 @@
             <div class="checkout braindev-bg-card-dark p-5 container mt-5 ">
 
                 <form class="container formCheckout" action="{{ route('register') }}" method="POST">
+                  {{ csrf_field() }}
                   @csrf
 
                     <div class="form-row">
@@ -59,7 +60,7 @@
                         <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="Digite seu Telefone *" required>
                       </div>
                       <div class="form-group col-md-6">
-                        <input type="text" class="form-control" id="endereco" name="telefone" placeholder="Seu endereço *" required>
+                        <input type="text" class="form-control" id="endereco" name="endereço" placeholder="Seu endereço *" required>
                       </div>
 
                       <div class="form-group col-md-4">

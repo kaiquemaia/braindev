@@ -45,6 +45,8 @@ Route::post('/obrigado', function(){
 
 Route::post('/enviar', 'ContatoController@enviaContato');
 
+Route::post('/home', 'RegistroMailController@enviaRegistro');
+
 
 
 
