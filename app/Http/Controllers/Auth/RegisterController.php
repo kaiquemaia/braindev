@@ -53,11 +53,11 @@ class RegisterController extends Controller
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
             // 'empresa' => ['required', 'string', 'confirmed'],
-            // 'telefone' => ['required', 'integer'],
-            // 'cpf' => ['required', 'string', 'max:13'],
-            // 'cnpj' => ['required', 'string', 'max: 15'],
-            // 'cidade' => ['required', 'string'],
-            // 'numero' => ['required', 'string'],
+            'telefone' => ['required', 'integer'],
+            'cpf' => ['required', 'string', 'max:13'],
+            'cnpj' => ['required', 'string', 'max: 15'],
+            'cidade' => ['required', 'string'],
+            'numero' => ['required', 'string'],
             // 'cep' => ['required', 'integer'],
 
 
@@ -75,14 +75,14 @@ class RegisterController extends Controller
     {
         return User::create([
             'name' => $data['name'],
-            // 'empresa' => $data['empresa'],
+            'empresa' => $data['inputEmpresa'],
             'email' => $data['email'],
-            // 'telefone' => $data['telefone'],
-            // 'cpf' => $data['cpf'],
-            // 'cnpj' => $data['cnpj'],
-            // 'cidade' =>$data['cidade'],
-            // 'numero' =>$data['numero'],
-            // 'cep' => $data['cep'],
+            'telefone' => $data['telefone'],
+            'cpf' => $data['cpf'],
+            'cnpj' => $data['cnpj'],
+            'cidade' =>$data['cidade'],
+            'numero' =>$data['numero'],
+            'cep' => $data['cep'],
             'password' => Hash::make($data['password']),
         ]);
     }
