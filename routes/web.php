@@ -42,6 +42,9 @@ Route::get('/recov', function(){
 Route::post('/obrigado', function(){
     return view('obrigado');
 });
+Route::get('/planos', function(){
+    return view('planos');
+});
 
 Route::post('/enviar', 'ContatoController@enviaContato');
 
