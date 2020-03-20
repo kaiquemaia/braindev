@@ -23,7 +23,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg braindev-bg-purple row py-3 ">
+    <nav class="navbar navbar-expand-lg braindev-bg-purple row py-1 ">
         <div class="container">
         {{-- <a class="navbar-brand" href="{{'/'}}"><img src="img/logo-rocketseat.svg" alt="" width="60px" height="40px"></a> --}}
         <h3>< Braindev ></h3>
@@ -49,6 +49,7 @@
               @if (Route::has('login'))
                 <span class="navbar-button">
                   <button class="btn btn-login-header px-4" onclick="location.href='{{ route('login') }}'" target="_blank">Login</button>
+                  <button class="btn btn-login-header-secondary px-4" onclick="location.href='{{ url('/checkout') }}'" target="_blank">Registrar</button>
               @endif
 
               @else

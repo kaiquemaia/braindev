@@ -354,6 +354,12 @@ h3 {
     background-color: rgb(237, 238, 243);
     color: rgb(105, 120, 255);
 }
+.btn-login-header-secondary {
+    border: 1px solid;
+    padding: 8px 40px 8px 40px;
+    background-color: none;
+    color: #f4f4f4;
+}
 
 
 /* -------------------------------- Final dos styles botões -------------------------------- */
