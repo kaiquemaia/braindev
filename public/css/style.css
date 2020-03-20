@@ -50,7 +50,7 @@ footer {
 
 /* Hide */
 
-div.meu-perfil, .meus-pedidos {
+div.meu-perfil, .meus-pedidos, .meus-planos, .meus-servicos {
     transition: all 300ms;
 }
 
