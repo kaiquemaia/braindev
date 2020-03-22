@@ -15,10 +15,10 @@
                 {{-- Foram retiradas algumas class (col-lg-6 col-md-12 col-xs-12) --}}
                 <div class="informacoes">
                     <h3 class="title"><b>Telefone</b></h3>
-                    <h5 style="color:white">(11) 9xxxx - xxxx</h5>
+                    <h5 style="color:white">(11) 4829-5923</h5>
                     <hr>
                     <h3 class="title"><b>Email</b></h3>
-                    <h5 style="color:white">suporte@braindev.com</h5>
+                    <h5 style="color:white">braindevprojeto@gmail.com</h5>
                     <hr>
                     <div>
                         <h3 class="title"><b>Social</b></h3>
