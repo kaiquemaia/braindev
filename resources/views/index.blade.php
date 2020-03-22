@@ -7,7 +7,7 @@
         <div class="">
             <h2 class="h2-black">Nós alcançamos <b class="title">Resultados</b></h2>
             <p class="">Aqui fazemos acontecer, se você tem uma ideia é só trazer que transformaremos ela em realidade</p>
-            <button type="button" class="btn btn-braindev" data-toggle="modal" data-target=".produto1">Conhecer</button>
+            <button type="button" class="btn btn-braindev mt-5" data-toggle="modal" data-target=".produto1">Conhecer</button>
         </div>
         <div class=" text-center">
             <img src="img/melhores-tecnologias.svg" alt="" class="img-fluid">
@@ -121,7 +121,6 @@
 
 </div>
 
-<<<<<<< HEAD
 <section class="depoimento bg-light" id="id_depoimento">
     <div class="depoimento-header container">
         <section class="row pt-5" id="planos">
@@ -135,45 +134,45 @@
                 <div class="depoimentos text-center">
                     <div class="card-depoimentos">
                         <div class="row">
-                            <img class="col-6" src="" alt="">
-                            <h3 class="title col-6">@nome</h3>
+                            {{-- <img class="col-6" src="" alt=""> --}}
+                            <h3 class="title col-12">Luís Marques</h3>
                         </div>
-                        <p class="card-text-depoimentos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores velit repellendus ad exercitationem porro, quia, perferendis tempore corporis deserunt, nisi labore placeat. Necessitatibus rem delectus dicta eius eum voluptatibus est.</p>
+                        <p class="card-text-depoimentos">A BrainDev tem respondido rapidamente a todas as minhas solicitações com alto profissionalismo. O sistema tem uma excelente tecnologia, é intuitivo e moderno. Recomendo a quem quer ter um website com muita qualidade e preços acessíveis.</p>
                     </div>
                     <div class="card-depoimentos">
                         <div class="row">
-                            <img class="col-6" src="" alt="">
-                            <h3 class="title col-6">@nome</h3>
+                            {{-- <img class="col-6" src="" alt=""> --}}
+                            <h3 class="title col-12">Paulo Filipe</h3>
                         </div>
-                        <p class="card-text-depoimentos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non velit eveniet doloremque dicta reiciendis, laudantium quibusdam quas modi sint doloribus, ab beatae dolorum ad magnam adipisci alias nesciunt? Exercitationem, adipisci.</p>
+                        <p class="card-text-depoimentos">Os formatos personalizáveis da BrainDev permitem utilização para vários tipos de actividade. Do simples blog a um autêntico jornal em versão digital. É fácil editar e actualizar constantemente, com conteúdos que vão para além do texto: vídeos, fotos, gráficos, ficheiros, etc. Uma solução muito equilibrada que permite apresentar um produto digital de qualidade sem grandes custos</p>
                     </div>
                     <div class="card-depoimentos">
                         <div class="row">
-                            <img class="col-6" src="" alt="">
-                            <h3 class="title col-6">@nome</h3>
+                            {{-- <img class="col-6" src="" alt=""> --}}
+                            <h3 class="title col-12">Adua Guerra Santos</h3>
                         </div>
-                        <p class="card-text-depoimentos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, dignissimos repellat! Debitis non at ipsa distinctio eaque, culpa natus iure doloribus dolore architecto modi est, cupiditate quo fugiat error quam.</p>
+                        <p class="card-text-depoimentos">A Webnode tem respondido a todas as minhas solicitações e questões com profissionalismo e eficácia notável. Sente-se que para além da tecnologia há um relacionamento humano fundamental na partilha de conhecimentos e na vida.</p>
                     </div>
                     <div class="card-depoimentos">
                         <div class="row">
-                            <img class="col-6" src="" alt="">
-                            <h3 class="title col-6">@nome</h3>
+                            {{-- <img class="col-6" src="" alt=""> --}}
+                            <h3 class="title col-12">Edmilson Nascimento</h3>
                         </div>
-                        <p class="card-text-depoimentos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nobis magnam veritatis, dicta iste aut vel deserunt quidem id. Voluptate quibusdam corrupti blanditiis inventore hic cupiditate quidem rerum ipsam autem?</p>
+                        <p class="card-text-depoimentos">Um serviço de primeira! O sistema é simplesmente maravilhoso: intuitivo, bonito e moderno. Superou todas as minhas expectativas.</p>
                     </div>
                     <div class="card-depoimentos">
                         <div class="row">
-                            <img class="col-6" src="" alt="">
-                            <h3 class="title col-6">@nome</h3>
+                            {{-- <img class="col-6" src="" alt=""> --}}
+                            <h3 class="title col-12">Tiago Moura</h3>
                         </div>
-                        <p class="card-text-depoimentos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea dignissimos cumque quia nihil quas! Nam, magnam? Dignissimos laborum facilis magni in at ab, illum, soluta eos incidunt esse quam quas!</p>
+                        <p class="card-text-depoimentos">É muito intuitivo construir sites na BrainDev. É fácil de usar e deixar o site com uma aparência profissional.Todas as dúvidas e questões são prontamente respondidas pela excelente equipa técnica e de suporte. Recomendo!</p>
                     </div>
                     <div class="card-depoimentos">
                         <div class="row">
-                            <img class="col-6" src="" alt="">
-                            <h3 class="title col-6">@nome</h3>
+                            {{-- <img class="col-6" src="" alt=""> --}}
+                            <h3 class="title col-12">Mark Zuckerberg</h3>
                         </div>
-                        <p class="card-text-depoimentos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea dignissimos cumque quia nihil quas! Nam, magnam? Dignissimos laborum facilis magni in at ab, illum, soluta eos incidunt esse quam quas!</p>
+                        <p class="card-text-depoimentos">Excellent attention from this BrainDev team, great feedback! I hope they stay that way.</p>
                     </div>
                 </div>
 
@@ -181,8 +180,5 @@
         </div>
     </div>
 </section>
-=======
-
->>>>>>> 4b4c81d02422a951b9bbf63285ca3ebe094379a4
 @endsection
 
