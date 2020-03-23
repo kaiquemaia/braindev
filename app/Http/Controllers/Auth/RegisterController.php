@@ -58,7 +58,7 @@ class RegisterController extends Controller
             'cnpj' => ['required', 'string', 'max: 15'],
             'cidade' => ['required', 'string'],
             'numero' => ['required', 'string'],
-            // 'cep' => ['required', 'integer'],
+            'cep' => ['required', 'string'],
 
 
         ]);

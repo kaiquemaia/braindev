@@ -24,7 +24,7 @@ class CreateUsersTable extends Migration
             $table->Biginteger('cnpj')->unique();
             $table->string('cidade');
             $table->integer('numero');
-            $table->integer('cep');
+            $table->string('cep');
             
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
