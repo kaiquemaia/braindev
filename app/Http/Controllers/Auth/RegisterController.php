@@ -75,7 +75,7 @@ class RegisterController extends Controller
     {
         return User::create([
             'name' => $data['name'],
-            'empresa' => $data['inputEmpresa'],
+            'empresa' => $data['empresa'],
             'email' => $data['email'],
             'telefone' => $data['telefone'],
             'cpf' => $data['cpf'],
@@ -87,3 +87,5 @@ class RegisterController extends Controller
         ]);
     }
 }
+
+

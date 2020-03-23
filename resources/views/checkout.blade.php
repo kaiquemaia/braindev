@@ -24,7 +24,7 @@
                       </div>
 
                       <div class="form-group col-md-6">
-                        <input type="text" class="form-control" id="empresa" name="inputEmpresa" placeholder="Nome da empresa *" required>
+                        <input type="text" class="form-control" id="empresa" name="empresa" placeholder="Nome da empresa *" required>
                       </div>
                       <div class="form-group col-md-12">
                         <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" placeholder="Digite seu Email *" required>
