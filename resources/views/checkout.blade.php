@@ -57,7 +57,8 @@
 
                       </div>
                       <div class="form-group col-md-6">
-                        <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="Digite seu Telefone *" required>
+                        <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="Digite seu Telefone *" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4,5}" required>
+                        <script type="text/javascript">$("#telefone").mask("(00) 0000-00009");</script>
                       </div>
                       <div class="form-group col-md-6">
                         <input type="text" class="form-control" id="endereco" name="endereço" placeholder="Seu endereço *" required>
