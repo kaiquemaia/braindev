@@ -5,7 +5,7 @@
     <div class="container text-center mt-5 pt-5">
 
 
-        <div class="painel-grid-dashboard container mt-4">
+        <div class="painel-grid-dashboard container mt-4 mb-5">
             <div class="sidebar">
                 <div class="text card-dashboard" id="minha-conta" > Minha conta <i class="fa fa-user"></i> </div></a>
                 

@@ -716,6 +716,18 @@ li {
         grid-gap: 40px;
     }
 
+    .depoimentos {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    .painel-grid-dashboard {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
 
   }
 
