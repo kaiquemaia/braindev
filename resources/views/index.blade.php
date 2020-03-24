@@ -113,11 +113,13 @@
     
     @foreach ($planos as $plano)
     <div class="col mb-4">
-        <div class="card-body text-center p-4">
-            <img src="img/step-3.svg" alt=""  width="150px" class="pb-5 img-fluid">
-            <h3><b>{{$plano->titulo_plano}}</b></h3>
-            <p class="card-text p-3">{{$plano->descricao_plano}}</p>
-            <button type="button" class="btn btn-braindev btn-lg btn-block" data-toggle="modal" data-target=".produto3">Conhecer</button>
+        <div class="card shadow-sm servicos">
+            <div class="card-body text-center p-4">
+                <img src="img/step-3.svg" alt=""  width="150px" class="pb-5 img-fluid">
+                <h3><b>{{$plano->titulo_plano}}</b></h3>
+                <p class="card-text p-3">{{$plano->descricao_plano}}</p>
+                <button type="button" class="btn btn-braindev btn-lg btn-block" data-toggle="modal" data-target=".produto3">Conhecer</button>
+            </div>
         </div>
     </div>
     @endforeach
