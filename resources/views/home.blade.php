@@ -11,7 +11,7 @@
                 <div class="text card-dashboard" id="pedidos" >  Pedidos <i class="fa fa-tag"></i></div>
                 <div class="text card-dashboard" id="planos" > Planos <i class="fa fa-bars"></i></div>
                 <div class="text card-dashboard" id="servicos" > Serviços <i class="fa fa-bars"></i></div>
-                <div class="text card-dashboard" id="depoimento" > Depoimentos <i class="fa fa-bars"></i></div>
+                <div class="text card-dashboard" id="depoimento" > Usuários <i class="fa fa-bars"></i></div>
                 
             </div>
 
@@ -313,27 +313,20 @@
                 <div class="meus-depoimentos text-left hide">
 
                     
-                    <form class="container formCheckout" action="{{ route('register') }}" method="POST">
-                    <h3>Depoimentos</h3>
-                        @csrf
-
-                            <div class="form-row">
-                            <div class="form-group col-md-12">
-                                <input id="name-depoimento" type="text" class="form-control @error('name-depoimento') is-invalid @enderror" name="name-depoimento" value="{{ old('name-depoimento') }}" required autocomplete="name-depoimento" placeholder="Digite um Nome" required>
-
-                                @error('name')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-
-                            <div class="form-group col-md-12">
-                                <input type="text" class="form-control" id="depoimento" name="depoimento" placeholder="depoimento">
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-braindev"> {{ __('Salvar') }} </button>
-                    </form>
+                    
+                    <tr>
+                        <th> ID </th>
+                        <th> UF </th>
+                        <th> NOME UF </th>
+                        <th> ... </th>
+                    </tr>
+                        @foreach($users as $user)
+                            <tr>
+                                <td>{{$user->id}}</td>
+                                <td>{{$user->name}}</td>
+                                <td>{{$user->nome_uf}}</td>
+                            </tr>
+                        @endforeach
                 </div>
 
 
