@@ -40,6 +40,12 @@ class RegisterController extends Controller
         $this->middleware('guest');
     }
 
+    public function index()
+{
+    $users = \Users\user::orderBy('id');
+    return view('user.index', compact('users'));
+}
+
     /**
      * Get a validator for an incoming registration request.
      *
