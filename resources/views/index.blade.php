@@ -76,12 +76,16 @@
 
 <div class="card-deck">
 
-    <div class="card shadow-lg servicos">
+    {{-- <div class="card shadow-lg servicos">
         <div class="card-body text-center p-4">
             <img src="img/step-3.svg" alt=""  width="150px" class="pb-5 img-fluid">
-            <h3><b>Starter</b></h3>
+            <h3><b>
+            
+                
+                
+            </b></h3>
             <p class="card-text p-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus error pariatur mollitia facilis. Excepturi obcaecati
+                Plano Starter
             </p>
             <button type="button" class="btn btn-braindev btn-lg btn-block" data-toggle="modal" data-target=".produto1">Conhecer</button>
          </div>
@@ -91,7 +95,7 @@
             <img src="img/step-7.svg" alt=""  width="150px" class="pb-5 img-fluid">
             <h3><b>Pro</b></h3>
             <p class="card-text p-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus error pariatur mollitia facilis. Excepturi obcaecati
+                Plano Pro
             </p>
             <button type="button" class="btn  btn-braindev btn-lg btn-block" data-toggle="modal" data-target=".produto2">Conhecer</button>
          </div>
@@ -101,11 +105,22 @@
             <img src="img/step-8.svg" alt=""  width="150px" class="pb-5 img-fluid">
             <h3><b>Custom</b></h3>
             <p class="card-text p-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus error pariatur mollitia facilis. Excepturi obcaecati
+                Plano custom
             </p>
             <button type="button" class="btn btn-braindev btn-lg btn-block" data-toggle="modal" data-target=".produto3">Conhecer</button>
          </div>
+    </div> --}}
+    
+    @foreach ($planos as $plano)
+    <div class="col mb-4">
+        <div class="card-body text-center p-4">
+            <img src="img/step-3.svg" alt=""  width="150px" class="pb-5 img-fluid">
+            <h3><b>{{$plano->titulo_plano}}</b></h3>
+            <p class="card-text p-3">{{$plano->descricao_plano}}</p>
+            <button type="button" class="btn btn-braindev btn-lg btn-block" data-toggle="modal" data-target=".produto3">Conhecer</button>
+        </div>
     </div>
+    @endforeach
 </div>
 
 <!-- --------- Modal the products ------------ -->

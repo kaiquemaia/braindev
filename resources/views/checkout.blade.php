@@ -61,7 +61,7 @@
 
                       </div>
                       <div class="form-group col-md-6">
-                        <input type="text" class="form-control" id="endereco" name="endereço" placeholder="Seu endereço *" required>
+                        <input type="text" class="form-control" id="endereco" name="endereco" placeholder="Seu endereço *" required>
                       </div>
 
                       <div class="form-group col-md-4">

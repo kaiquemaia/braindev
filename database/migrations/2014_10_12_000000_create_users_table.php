@@ -23,6 +23,7 @@ class CreateUsersTable extends Migration
             $table->Biginteger('cpf')->unique();
             $table->Biginteger('cnpj')->unique();
             $table->string('cidade');
+            $table->string('endereco');
             $table->integer('numero');
             $table->string('cep');
             

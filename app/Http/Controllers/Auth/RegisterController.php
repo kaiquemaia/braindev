@@ -63,6 +63,7 @@ class RegisterController extends Controller
             'cpf' => ['required', 'string', 'max:13'],
             'cnpj' => ['required', 'string', 'max: 15'],
             'cidade' => ['required', 'string'],
+            'endereco'=> ['string'],
             'numero' => ['required', 'string'],
             'cep' => ['required', 'string'],
 
@@ -87,6 +88,7 @@ class RegisterController extends Controller
             'cpf' => $data['cpf'],
             'cnpj' => $data['cnpj'],
             'cidade' =>$data['cidade'],
+            'endereco' =>$data['endereco'],
             'numero' =>$data['numero'],
             'cep' => $data['cep'],
             'password' => Hash::make($data['password']),

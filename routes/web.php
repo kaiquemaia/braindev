@@ -11,12 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'PlanosController@listarPlanos');
+
 Route::get('/welcome', function () {
     return view('welcome');
 });
+
 Route::get('/sobre', 'SobreController@index')->name('index');
 
 Auth::routes();
@@ -49,6 +49,8 @@ Route::get('/planos', function(){
 Route::post('/enviar', 'ContatoController@enviaContato');
 
 Route::post('/home', 'RegistroMailController@enviaRegistro');
+
+Route::put('/home/edita', 'EditaUsuarioContoller@editaUsuario'); 
 
 
 
